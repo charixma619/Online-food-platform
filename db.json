@@ -1,0 +1,25 @@
+ {
+  "users": [
+    {
+      "id": 1,
+      "username": "ADMIN",
+      "password": 1234
+    }
+  ],
+  "order": [
+    {
+      "id": 1,
+      "name": "Success",
+      "food": "Fried rice & chicken",
+      "quantity": 3,
+      "place": "greece"
+    }
+  ],
+  "food": [
+    {
+      "id": 1,
+      "food": "Fried rice & chicken",
+      "price": 1000
+    }
+  ]
+}

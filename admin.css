@@ -1,0 +1,80 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+    font-size: 16px;
+    color: #777;
+    font-family: sans-serif;
+    font-weight: 300;
+    
+}
+form{
+    width: 600px;
+    background: #00FA9A;
+    padding: 10px;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.foodItems{
+    margin: 20px;
+}
+
+label{
+    font: 40px;
+    color: white;
+    display: block;
+    margin: 5px 0;
+    
+    
+}
+
+input[type="text"]{
+    padding: 5px;
+    border-radius: 5px;
+    width: 70%;
+}
+
+input[type="submit"]{
+    padding: 8px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: #0000CD;
+    color: white;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    opacity: 0.7;
+}
+table{
+    margin: 80px 0;
+}
+table, th, td{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 5px;
+}
+table caption{
+    font-size: 25px;
+    margin: 20px 0;
+}	
+
+.btnSubmit {
+    color:white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    text-decoration: none;
+}
+
+#btnSubmit:hover {
+    background-color: white;
+    text-transform: uppercase;
+    color: black;
+}

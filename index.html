@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Charixma Kitchen</title>
+</head>
+<body onload="">
+  <div class="container">
+      <h1>Welcome To <span style="color: darkgreen">Charixma </span>Kitchen</h1>
+
+      <br>
+      <div class="order">
+        <h3>Make your order</h3>
+        <form id="addPost">
+          <table width = "450px">
+              <tr>
+                <td>
+                  <label>Name</label>
+                </td>
+                <td>
+                  <input type="text"  id="name">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>Food</label>
+                </td>
+                <td>
+                    <!-- <input type="text" id="food" placeholder="enter food ID"> -->
+                    <select  id="food">
+                        <option value="" aria-placeholder="Make your choice"></option>
+                        <option value="Fried rice & chicken">Fried rice & chicken</option>
+                        <option value="Jollof rice & chicken">Jollof rice & chicken</option>
+                        <option value="Fufu & Oha soup">Fufu & Oha soup</option>
+                        <option value="Semo & Egusi soup">Semo & Egusi soup</option>
+                    </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                   <label for="location">Location</label> 
+                </td>
+                <td>
+                  <input type="text" id="locate">
+                </td>
+              </tr>
+              <tr>
+                <td><label>Quantity</label></td>
+                <td><input type="text" id="quantity"></td>
+              </tr>
+              
+          </table>
+        </form>
+        <br>
+        <br>
+        <button type="submit" id="order">Submit Order</button>
+        <button type="submit" id="update">Update Order</button>
+
+        
+        <br>
+        <br>
+        <form action="">
+          <label for="name">Name :</label>
+          <input type="text" id="retrieve">
+        </form>
+        <br>
+        <button type="submit" id="get">Retrieve</button>
+        <button type="submit" id="delete">Delete</button>
+
+      </div>
+
+      <div id="stuff">
+
+      </div>
+
+    <script src="script.js"></script>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "dec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "keywords": [
+    "online",
+    "food",
+    "ordering",
+    "platform"
+  ],
+  "author": "REAGAN",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.15.0"
+  }
+}
